@@ -13,8 +13,8 @@
             padding: 0 20px;
          }
          .logo-container img {
-            width: 50px;
-            height: 50px;
+            width: 70px;
+            height: 70px;
             display: block;
             border-radius: 50px;
         }
@@ -32,6 +32,7 @@
       padding: 10px;
       text-align: center;
       height: 40px;
+      justify-content: center;
     }
 
     nav a {
@@ -50,6 +51,43 @@
       border-color: green;
       color: white;
     }
+    body{
+      background-color: green;
+    }
+    h2{
+      font-size: 30px;
+      font-family: Georgia;
+      font-weight: bolder;
+    }
+    .Categories{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .LiveStock{
+      font-size: 20px;
+      font-family: Arial;
+      font-weight: bold;
+      text-align: center;
+    }
+    .Poultry{
+      font-size: 20px;
+      font-family: Arial;
+      font-weight: bold;
+      text-align: center;
+    }
+    .DairyFarmers{
+      font-size: 20px;
+      font-family: Arial;
+      font-weight: bold;
+      text-align: center;
+    }
+    .Horticultural{
+      font-size: 20px;
+      font-family: Arial;
+      font-weight: bold;
+      text-align: center;
+    }
     footer {
       margin-top: auto; 
       background-color:darkblue;
@@ -63,6 +101,9 @@
       justify-content: center;
       gap: 20px;
     }
+    img{
+      border-radius: 50px;
+    }
         </style>
     </head>
     <body>
@@ -75,15 +116,41 @@
   <div class="header">
     <nav>
       <a href="index.html">Home</a>
-      <a href="business.html">Business</a>
+      <a href="Business Page.html">Business</a>
       <a href="tips.html">Tips</a>
-      <a href="Products.html">Products</a>
       <a href="Health.html">Health</a>
       <a href="About.html">About Us</a>
       <a href="Contact.html">Contact Us</a>
     </nav>
   </div>
-  <img src="fist.jpg" height="600px" width="1336px">
+  <h2>Categories</h2>
+  <div class="Categories">
+      <div class="LiveStock">
+        <a href="https://lenafu.org.ls/livestock/" target="_blank">
+          <img src="Livestock.jpg" height="400px" width="300px">
+          <p>Live Stock</p>
+     </a>
+    </div>
+    <div class="Poultry">
+      <a href="https://web.facebook.com/groups/1961216600803719/?_rdc=1&_rdr#"target="_blank">
+        <img src="Poultry.jpg" height="400px" width="300px">
+        <p>Poultry Farmer</p>
+      </a>
+    </div>
+    <div class="DairyFarmers">
+      <a href="https://rsdalesotho.com/matsibolo-dairy-farmers-association/" target="_blank">
+        <img src="Dairy.jpg"height="400px" width="300px">
+        <p>Dairy Farmer</p>
+      </a>
+    </div>
+    <div class="Horticultural">
+      <a href="https://lenafu.org.ls/horticulture/" target="_blank">
+        <img src="Horticultural.jpg" height="400px" width="300px">
+        <p>Horticultural Farmer</p>
+      </a>
+    </div>
+  </div>
+  
   <footer>
     <ul>
         <li>Email Us</li>
