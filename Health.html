@@ -5,6 +5,89 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Farmers</title>
         <style>
+          body{
+            background-color: transparent;
+          }
+          @media screen and(max-with:600px) {
+            body{
+                background-color:black;
+                color: white;
+                padding: 5px;
+            }
+            img{
+                width: 100px;
+                height: 100px;
+                gap: px;
+            }
+            
+            p{
+                font-size: 1em;
+                color: white;
+                margin-top: 5px;
+            }
+            nav a {
+              padding: 8px 12px;
+        font-size: 12px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        border: 1px solid darkcyan;
+        box-sizing: border-box;
+            }
+            nav {
+          background-color: transparent;
+        height: 600px;
+        padding: 5px 0;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 5px; 
+            }
+            .nave a :hover{
+              background-color: teal;
+        border-color: #fff; 
+        color: #fff;
+
+            }
+            h1{
+              color: aqua;
+              font-size: 4px; 
+              margin-left: 0px;
+            }
+            h2{
+               font-size:10px;
+             text-align: center;
+             color: aqua; 
+             margin-top: 20px;
+            }
+             .container{
+               height: auto;
+               flex-direction: column;
+               padding: 10px;
+               background-color: transparent; 
+               gap: 10px;
+            }  
+            .logo-container{
+              width: 50px;
+             height: 50px;
+             border-radius: 50%; 
+            }
+                    
+    footer {
+        background-color: darkgreen;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+            
+          
+          }
          .container {
             background-color: green;
             height: 120px;
@@ -28,7 +111,7 @@
     }
 
     nav {
-      background-color: greenyellow;
+       background-color:teal;
       padding: 10px;
       text-align: center;
       height: 40px;
@@ -36,23 +119,49 @@
 
     nav a {
       margin: 0 10px;
-      border: 1px solid #ccc;
-      padding: 10px 20px;
       text-decoration: none;
       color: #333;
       border-radius: 30px;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 10px;
     }
 
     nav a:hover {
-      background-color: blue;
-      border-color: green;
+      background-color:teal;
+      border-color:darkcyan;
       color: white;
+    }
+    .Poultry{
+      font-size: 30px;
+      font-family:Arial;
+      
+    }
+    .Horticultural{
+      font-size: 20px;
+      font-family:Arial;
+      
+    }
+    .Dairy{
+      font-size: 20px;
+      font-family:Arial;
+    }
+    .LiveStock{
+      font-size: 10px;
+      font-family:Arial;
+
+    }
+    h2{
+      font-size: 25px;
+      color: green;
+      display: inline;
+    }
+    p{
+      font-size: 30px;
+      font-weight: bolder;
     }
     footer {
       margin-top: auto; 
-      background-color:darkblue;
+      background-color:green;
       padding: 15px;
       text-align: center;
     }
@@ -75,15 +184,42 @@
   <div class="header">
     <nav>
       <a href="index.html">Home</a>
-      <a href="business.html">Business</a>
+      <a href="Business Page.html">Business</a>
       <a href="tips.html">Tips</a>
-      <a href="Products.html">Products</a>
       <a href="Health.html">Health</a>
       <a href="About.html">About Us</a>
       <a href="Contact.html">Contact Us</a>
     </nav>
   </div>
-  <img src="fist.jpg" height="600px" width="1336px">
+  <div class="Poultry">
+    <h2>Poultry Farmers</h2>
+    <p>Eating Eggs</p>
+    <p>NO Eggs</p>
+    <a href="https://www.agriculture.com/family/living-the-country-life/10-poultry-problems" target="_blank">
+      <p>Read more</p>
+    </a>
+  </div>
+  <div class="Horticultural">
+    <h2>Horticultural Farmers</h2>
+    <p>unknown insects</p>
+    <p>Poor soil structure</p>
+    <a href="https://eos.com/blog/agriculture-problems/" target="_blank">
+      <p>Read more</p>
+    </a>
+  </div>
+  <div class="Dairy">
+    <h2>Dairy Farmers</h2>
+    <a href="https://www.tarleton.edu/cob/2024/12/23/challenges-and-solutions-for-small-dairy-farms-what-you-need-to-know/" target="_blank">
+      <p>Challenges and Solutions for Small Dairy Farms: What You Need to Know</p>
+    </a>
+  </div>
+  <div class="LiveStock">
+    <h2>LiveStock Farmers</h2>
+    <p>unknown disease</p>
+    <a href="https://www.17goalsmagazin.de/en/livestock-farming-problems-and-solutions/" target="_blank">
+      <p>Read more</p>
+    </a>
+  </div>
   <footer>
     <ul>
         <li>Email Us</li>
